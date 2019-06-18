@@ -11,10 +11,10 @@ namespace Shapes
         private int side1;
         private int side2;
         private int side3;
-        private int angle;
+        private double angle;
 
         
-        public Triangle(int side1, int side2, int side3, int angle, string shapeId) : base(shapeId)
+        public Triangle(int side1, int side2, int side3, double angle, string shapeId) : base(shapeId)
         {
             this.side1 = side1;
             this.side2 = side2;
